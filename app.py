@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1>Success!</h1><p>naya wala Azure Free! is running via GitHub Actions.</p>"
+    return "<h1>Success hai!</h1><p>naya wala Azure Free! is running via GitHub Actions.</p>"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
